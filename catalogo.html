@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo</title>
+  <link rel="stylesheet" href="style2.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.producto').each(function(i) {
+        $(this).delay(i * 200).fadeIn(800);
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <div class="logo">ARNGREN</div>
+    <nav>
+      <a href="iniciar sesion.html">Iniciar Sesión</a>
+      <a href="catalogo.html">Catálogos</a>
+      <a href="configuracion.html">Configuración</a>
+      <a href="nosotros.html">Nosotros</a>
+    </nav>
+  </header>
+
+  <h1 class="titulo animada">Num de Productos</h1>
+
+  <main class="contenido">
+    <section class="izquierda">
+      <h2>Categorías</h2>
+      <div class="caja-verde animada">
+        <strong>Marcas de Productos:</strong><br>
+        -Scooters y vehículos eléctricos<br>
+        -Drones y helicópteros RC<br>
+        -Juguetes y productos para niños<br>
+        -Herramientas multiusos<br>
+        -Iluminación LED<br>
+        -Sistemas de vigilancia y cámaras de seguridad
+      </div>
+
+      <h2>Capacidades</h2>
+      <div class="caja-verde animada">
+        -Movilidad eléctrica<br>
+        -Drones y vehículos<br>
+        -Gadgets y dispositivos<br>
+        -Juguetes inteligentes<br>
+        -Herramienta multifunción
+      </div>
+    </section>
+
+    <section class="derecha">
+      <div class="producto" style="display:none">
+        <img src="bici2.png" alt="Bicicleta Eléctrica">
+        <p>Bicicleta Eléctrica</p>
+      </div>
+      <div class="producto" style="display:none">
+        <img src="scooter.png" alt="Scooter Urbano">
+        <p>Scooter Urbano</p>
+      </div>
+      <div class="producto" style="display:none">
+        <img src="dron.png" alt="Mini Drone">
+        <p>Mini Drone</p>
+      </div>
+      <div class="producto" style="display:none">
+        <img src="linte.png" alt="Linterna LED">
+        <p>Linterna LED</p>
+      </div>
+      <div class="producto" style="display:none">
+        <img src="cam.png" alt="Cámara de Seguridad">
+        <p>Cámara de Seguridad</p>
+      </div>
+      <div class="producto" style="display:none">
+        <img src="mase.png" alt="Masajeador Portátil">
+        <p>Masajeador Portátil</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="columna">
+      <h3>Acerca de:</h3>
+      <p>Arngren.net es una tienda en línea de origen noruego que ofrece una amplia gama de productos tecnológicos, gadgets innovadores y artículos a buen precio. Nos especializamos en sorprender y practicar directamente al hogar.</p>
+    </div>
+    <div class="columna">
+      <h3>Preguntas Frecuentes:</h3>
+      <p>¿Hacen envíos internacionales?<br>Sí, realizamos envíos a varios países. Los costos y tiempos varían según tu ubicación.<br><br>
+      ¿Tienen garantía?<br>¡Sí! Todos los productos cuentan con garantía según el tipo de artículo y la política del fabricante.</p>
+    </div>
+    <div class="columna">
+      <h3>Contáctanos:</h3>
+      <p>Facebook: <a href="#">facebook.com/arngrenoficial</a><br>
+      Instagram: <a href="#">instagram.com/arngren.gadgets</a><br>
+      TikTok: <a href="#">tiktok.com/@arngren.innovacion</a></p>
+    </div>
+  </footer>
+</body>
+</html>

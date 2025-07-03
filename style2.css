@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background-color: black;
+  color: white;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+nav a {
+  background-color: #00ff73;
+  color: black;
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.titulo {
+  background-color: #00ff73;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  font-size: 2em;
+}
+
+.contenido {
+  display: flex;
+  padding: 20px;
+}
+
+.izquierda {
+  width: 30%;
+}
+
+.izquierda h2 {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.caja-verde {
+  background-color: #00ff73;
+  color: black;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.derecha {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding-left: 30px;
+}
+
+.producto {
+  text-align: center;
+}
+
+.producto img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  background-color: white;
+  padding: 10px;
+}
+
+.producto p {
+  background-color: #00ff73;
+  color: black;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  padding: 20px;
+  border-top: 4px solid #00ff73;
+}
+
+footer .columna {
+  width: 30%;
+}
+
+footer h3 {
+  color: #00ff73;
+}
+
+footer a {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+

@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arngren</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- jQuery y Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+<body>
+    <header>
+        <div class="logo">ARNGREN</div>
+        <nav>
+            <a href="#">Iniciar Sesión</a>
+            <a href="catalogo.html">Catálogos</a>
+            <a href="#">Configuración</a>
+            <a href="nosotros.html">Nosotros</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="producto" id="producto">
+            <img src="bici.png" alt="Bicicleta Eléctrica Plegable">
+            <h1>Nuevo producto:<br>Bicicleta Eléctrica Plegable</h1>
+        </section>
+
+        <div class="buscar">
+            <label for="search">Buscar:</label>
+            <input type="text" id="search" name="search">
+        </div>
+
+        <section class="historia">
+            <h2>Historia:</h2>
+            <div class="contenido-historia">
+                <img src="historia.png" alt="Historia">
+                <p>
+                    Arngren.net es una página web noruega creada por Gisle Arngren como una extensión digital de su catálogo impreso de productos tecnológicos, gadgets y artículos variados. Su objetivo principal es promover y vender una amplia gama de productos directamente al consumidor, desde vehículos eléctricos hasta artículos curiosos. La página se caracteriza por mostrar todos los productos de forma compacta en una sola vista, imitando el estilo de un catálogo visual en línea. A pesar de su diseño poco convencional, se ha hecho conocida por su enfoque directo y masivo para presentar su oferta, manteniéndose como parte de la identidad del sitio.
+                </p>
+            </div>
+        </section>
+
+        <section class="resenas">
+            <h2>Reseñas</h2>
+            <div class="resenas-contenido">
+                <div class="resena">
+                    <div class="imagen-circular"></div>
+                    <p class="titulo-resena">Reseña</p>
+                    <p>"Una tienda diferente, con muchos productos curiosos. Siempre hay algo nuevo"</p>
+                </div>
+                <div class="resena">
+                    <div class="imagen-circular"></div>
+                    <p class="titulo-resena">Reseña</p>
+                    <p>"Fácil para encontrar artículos únicos. Me encanta la web por su estilo. Ideal para regalos."</p>
+                </div>
+                <div class="resena">
+                    <div class="imagen-circular"></div>
+                    <p class="titulo-resena">Reseña</p>
+                    <p>"Una tienda diferente, con muchos productos curiosos. Siempre hay algo nuevo"</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-seccion">
+                <h3>Acerca de:</h3>
+                <p>Arngren.net es una tienda en línea de gadgets, innovaciones y curiosidades tecnológicas. Fundada en Noruega, su estética particular destaca entre las tiendas online tradicionales.</p>
+            </div>
+            <div class="footer-seccion">
+                <h3>Preguntas Frecuentes:</h3>
+                <p><strong>¿Hacen envíos internacionales?</strong><br>Sí, realizamos envíos a varios países con tarifas variables.</p>
+                <p><strong>¿Cuánto tardan en llegar los productos?</strong><br>El tiempo de entrega depende del destino. Generalmente entre 7 a 14 días hábiles.</p>
+            </div>
+            <div class="footer-seccion">
+                <h3>Contáctanos:</h3>
+                <p>Facebook: <a href="https://facebook.com/arngrenoficial">facebook.com/arngrenoficial</a></p>
+                <p>Instagram: <a href="https://instagram.com/arngren.gadgets">instagram.com/arngren.gadgets</a></p>
+                <p>TikTok: <a href="https://tiktok.com/@arngren.innovacion">tiktok.com/@arngren.innovacion</a></p>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Scripts jQuery + Slick -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.resenas-contenido').slick({
+                autoplay: true,
+                dots: true,
+                arrows: false
+            });
+        });
+    </script>
+</body>
+</html>
+
